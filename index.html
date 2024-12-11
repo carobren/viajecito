@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagen/favicon (1).ico" type="image/x-icon">
+    <link rel="icon" href="./imagen/favicon (1).ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Viajecito</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <a href="./pages/quienes_somos.html">
+
+                <div class="logotitulo">
+                    <img src="./imagen/pngtree-airplane-icon-symbol-png-image_8792105.png" alt="logo página" width="100"
+                        height="100">
+
+                    <h1> Viajecito - Viajes baratos en avión o bus </h1>
+
+                </div>
+
+            </a>
+
+            <div class="containerlist">
+                <ul class="listanav">
+                    <li>
+                        Inicio
+                    </li>
+
+                    <li>
+                        Ofertas y promociones
+                    </li>
+
+                    <li>
+                        Mis pasajes
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <section id="destinos">
+            <h2> Los destinos más elegidos en Argentina</h2>
+            <p> Explora los lugares más cautivadores de Argentina, desde sus imponentes montañas y vastas llanuras hasta playas y glaciares de fama mundial. Este país ofrece destinos únicos y variados que se adaptan a todos los gustos: naturaleza, cultura, aventura y mucho más. Descubre qué hace que cada región sea especial y por qué miles de viajeros eligen estos lugares año tras año. ¡Prepárate para encontrar tu próximo destino favorito en Argentina!</p>
+
+            <div class="cards">
+                <div class="card">
+                    <img class="cardimg" src="./imagen/catamarca-2.webp" alt="Paisaje de Catamara" class="card-img-top"
+                        height="200" width="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Catamarca</h5>
+                        <p class="card-text">Descubre Catamarca, un paraíso de contrastes donde se mezclan paisajes
+                            montañosos, valles fértiles y un legado cultural inigualable. Desde el imponente Campo de
+                            Piedra Pómez hasta la mística Ruta del Adobe, esta provincia es un destino ideal para los
+                            amantes de la naturaleza y la historia. ¡Un lugar ideal para la aventura y la tranquilidad
+                            en un solo viaje!</p>
+                        <a href="#" class="btn btn-primary">Ver pasajes desde $40.000</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="cardimg" src="./imagen/519409_landscape.webp" alt="Paisaje de Salta"
+                        class="card-img-top" height="200" width="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Salta</h5>
+                        <p class="card-text">Salta, la "Linda", te espera con su belleza única y su riqueza cultural.
+                            Recorre los Valles Calchaquíes, visita la famosa Quebrada de las Conchas y disfruta de la
+                            arquitectura colonial de su capital. Esta provincia es famosa por sus paisajes multicolores
+                            y sus pueblos pintorescos, donde la gastronomía y las tradiciones andinas se entrelazan.</p>
+                        <a href="#" class="btn btn-primary">Ver pasajes desde $35.000</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="cardimg"
+                        src="./imagen/todas-las-claves-de-las-elecciones-que-se-definen-en-tierra-del-fuego-1565209.jpg"
+                        alt="Paisaje de Tierra del Fuego" class="card-img-top" height="200" width="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Tierra del Fuego</h5>
+                        <p class="card-text">Vive la experiencia de estar en el fin del mundo en Tierra del Fuego. Con
+                            sus paisajes de glaciares, bosques y montañas, esta provincia te ofrece la oportunidad de
+                            descubrir la mítica Ushuaia, navegar por el Canal Beagle y explorar el Parque Nacional
+                            Tierra del Fuego. Es un destino perfecto para los amantes de la aventura, con excursiones de
+                            trekking, navegación y avistaje de fauna. </p>
+                        <a href="#" class="btn btn-primary">Ver pasajes desde $50.000</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contacto">
+
+            <h2> Contáctanos </h2>
+
+            <form class="contacto" action="https://formspree.io/f/mnnqjzpz" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Ingresa tu E-mail" required>
+
+                <label for="Reason">Motivo:</label>
+                <select name="Motivo:" id="Reason" required>
+                    <option value=""></option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Reclamo">Reclamo</option>
+                </select>
+
+                <label for="mensaje">Escribe tu mensaje:</label>
+                <textarea name="mensaje" rows="5" cols="30" required></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+            <section id="secreseñas">
+                <h2 class="titreseñas"> Reseñas de nuestros usuarios </h2>
+                <div class="grid-container">
+                    <div class="reseña">
+                        <img class="userimg" src="./imagen/User.png" alt="Foto del usuario 1">
+                        <p><strong>Juan</strong> - 5 estrellas</p>
+                        <time datetime="2024-11-20">20 de noviembre de 2024</time>
+                        <p>Excelente servicio.</p>
+                    </div>
+
+                    <div class="reseña">
+                        <img class="userimg" src="./imagen/User.png" alt="Foto del usuario 2">
+                        <p><strong>Lucía</strong> - 5 estrellas</p>
+                        <time datetime="2024-11-13">13 de noviembre de 2024</time>
+                        <p>Muy rápido todo, recomiendo.</p>
+                    </div>
+
+                    <div class="reseña">
+                        <img class="userimg" src="./imagen/User.png" alt="Foto del usuario 3">
+                        <p><strong>Pablo</strong> - 5 estrellas</p>
+                        <time datetime="2024-11-05">05 de noviembre de 2024</time>
+                        <p>Encontré una oferta buenísima gracias a Viajecito.</p>
+                    </div>
+
+                    <div class="reseña">
+                        <img class="userimg" src="./imagen/User.png" alt="Foto del usuario 4">
+                        <p><strong>Clara</strong> - 5 estrellas</p>
+                        <time datetime="2024-11-05">05 de noviembre de 2024</time>
+                        <p>¡Viajecito nunca falla!</p>
+                    </div>
+
+                </div>
+                <section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="ubicacion">
+            <h5> Empresa de viajes "Viajecito" </h5>
+
+            <h6> Nuestra ubicación: </h6>
+            <h6> Av. Rivadavia 1234. Buenos Aires, Argentina</h6>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5840844863064!2d-58.552741289036334!3d-34.63994937282848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc815f87a861f%3A0x990f65042b7ef70c!2sAv.%20Rivadavia!5e0!3m2!1ses-419!2sar!4v1730065670404!5m2!1ses-419!2sar"
+                width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="redes">
+            <h5 id="redes"> Nuestras redes </h5>
+            <ul class="redeslista">
+                <li> <img class="RSocial" src="./imagen/Facebook_Logo_(2019).png.webp" alt="Facebook"> </li>
+                <li> <img class="RSocial" src="./imagen/Instagram_logo_2022.svg.webp" alt="Instagram"></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
